@@ -1,0 +1,47 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Félicitations !</title>
+    <style>
+        body {
+            background-color: #f0f8ff; /* Couleur de fond légère */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Centre le contenu verticalement */
+            align-items: center; /* Centre le contenu horizontalement */
+            height: 100vh; /* Prend toute la hauteur de la fenêtre */
+            margin: 0; /* Enlève les marges par défaut */
+            font-family: Arial, sans-serif; /* Police de caractères */
+        }
+        h1 {
+            color: green; /* Couleur du titre */
+            font-size: 48px; /* Taille de police pour le titre */
+        }
+        p {
+            color: #333; /* Couleur du texte */
+            font-size: 24px; /* Taille de police pour le texte */
+            text-align: center; /* Centre le texte */
+            margin: 20px; /* Marge autour du texte */
+        }
+        .button {
+            padding: 10px 20px; /* Espace autour du texte dans le bouton */
+            background-color: #4CAF50; /* Couleur du bouton */
+            color: white; /* Couleur du texte dans le bouton */
+            border: none; /* Pas de bordure */
+            border-radius: 5px; /* Coins arrondis */
+            font-size: 20px; /* Taille de police pour le bouton */
+            cursor: pointer; /* Change le curseur lorsque la souris passe sur le bouton */
+        }
+    </style>
+</head>
+<body>
+    <h1>Félicitations !</h1>
+    <p>Vous avez gagné <strong>1000 francs !</strong></p>
+    <p>Merci de jouer, continuez à rêver !</p>
+    <button class="button" onclick="alert('ta crue quoi sale enculer nique tes morts !')">Cliquez ici pour revendiquer votre prix !</button>
+</body>
+</html>
